@@ -1,0 +1,3 @@
+Explain what is "detached HEAD", and how it works
+
+Detached HEAD: Detached HEAD is a state that occurs when you check out a specific commit by its SHA-1 hash instead of a branch name. In this state, you're no longer on any branch; instead, you're directly pointing to a specific commit. Any new commits you make in this state won't belong to any branch and can be lost if you switch branches.
